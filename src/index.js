@@ -13,7 +13,7 @@ import TwoWayBinding from './components/TwoWayBindingComponent';
 import ShoppingClassDemo from './components/ShoppingClassDemo';
 import FormComponent from './components/FormComponent';
 import FormikValidation from './components/FormikValidation';
-import YupValidation from './components/YupValidation';
+import YupValidationComponent from './components/YupValidationComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +21,7 @@ root.render(
     {/* <ShoppingComponent /> */}
     {/* <FormComponent/> */}
     {/* {<FormikValidation/>} */}
-        {<YupValidation/>}
+        {<YupValidationComponent/>}
 
     {/* <TwoWayBinding /> */}
   </React.StrictMode>
