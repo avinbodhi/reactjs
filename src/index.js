@@ -16,6 +16,7 @@ import FormikValidation from './components/FormikValidation';
 import YupValidationComponent from './components/YupValidationComponent';
 import { CookiesProvider } from 'react-cookie';
 import UserLogin from './components/UserLogin';
+import ReducerDemo from './components/ReducerDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,9 +26,10 @@ root.render(
     {/* {<FormikValidation/>} */}
         {/* {<YupValidationComponent/>} */}
       
-      <CookiesProvider>
+      {/* <CookiesProvider>
       {<UserLogin/>}
-      </CookiesProvider>
+      </CookiesProvider> */}
+      <ReducerDemo />
         
 
     {/* <TwoWayBinding /> */}
