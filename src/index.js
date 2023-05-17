@@ -14,6 +14,8 @@ import ShoppingClassDemo from './components/ShoppingClassDemo';
 import FormComponent from './components/FormComponent';
 import FormikValidation from './components/FormikValidation';
 import YupValidationComponent from './components/YupValidationComponent';
+import { CookiesProvider } from 'react-cookie';
+import UserLogin from './components/UserLogin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +23,12 @@ root.render(
     {/* <ShoppingComponent /> */}
     {/* <FormComponent/> */}
     {/* {<FormikValidation/>} */}
-        {<YupValidationComponent/>}
+        {/* {<YupValidationComponent/>} */}
+      
+      <CookiesProvider>
+      {<UserLogin/>}
+      </CookiesProvider>
+        
 
     {/* <TwoWayBinding /> */}
   </React.StrictMode>
