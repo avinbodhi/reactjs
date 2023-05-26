@@ -17,6 +17,7 @@ import YupValidationComponent from './components/YupValidationComponent';
 import { CookiesProvider } from 'react-cookie';
 import UserLogin from './components/UserLogin';
 import ReducerDemo from './components/ReducerDemo';
+import JqueryAjaxDemo from './components/JqueryAjaxDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +31,7 @@ root.render(
       {<UserLogin/>}
       </CookiesProvider> */}
       <ReducerDemo />
-        
+        <JqueryAjaxDemo/>  
 
     {/* <TwoWayBinding /> */}
   </React.StrictMode>

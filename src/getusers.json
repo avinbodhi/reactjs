@@ -1,0 +1,37 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "dateOfBirth": "1992-05-10",
+    "address": "123 Main St, Anytown, USA",
+    "userId": "user1"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "dateOfBirth": "1997-09-15",
+    "address": "456 Elm St, Anycity, USA",
+    "userId": "user2"
+  },
+  {
+    "name": "David Johnson",
+    "age": 40,
+    "dateOfBirth": "1982-03-25",
+    "address": "789 Oak St, Anyville, USA",
+    "userId": "user3"
+  },
+  {
+    "name": "Sarah Williams",
+    "age": 35,
+    "dateOfBirth": "1987-11-05",
+    "address": "321 Pine St, Anyborough, USA",
+    "userId": "user4"
+  },
+  {
+    "name": "Michael Brown",
+    "age": 28,
+    "dateOfBirth": "1994-08-20",
+    "address": "987 Cedar St, Anyhamlet, USA",
+    "userId": "user5"
+  }
+]
