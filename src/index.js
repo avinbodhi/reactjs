@@ -18,6 +18,7 @@ import { CookiesProvider } from 'react-cookie';
 import UserLogin from './components/UserLogin';
 import ReducerDemo from './components/ReducerDemo';
 import JqueryAjaxDemo from './components/JqueryAjaxDemo';
+import SPAComponent from './components/SPAComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,8 +31,9 @@ root.render(
       {/* <CookiesProvider>
       {<UserLogin/>}
       </CookiesProvider> */}
-      <ReducerDemo />
-        <JqueryAjaxDemo/>  
+      {/* <ReducerDemo /> */}
+        {/* <JqueryAjaxDemo/> */}
+        <SPAComponent/>    
 
     {/* <TwoWayBinding /> */}
   </React.StrictMode>
