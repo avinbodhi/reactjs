@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -18,10 +18,16 @@ import { CookiesProvider } from 'react-cookie';
 import UserLogin from './components/UserLogin';
 import ReducerDemo from './components/ReducerDemo';
 import JqueryAjaxDemo from './components/JqueryAjaxDemo';
-import SPAComponent from './components/SPAComponent';
+import SAPComponent from './components/SPAComponent';
+import AddBook from './components/books/addbook';
+import BookList from './components/books/BookList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+ 
+  
 root.render(
+
   <React.StrictMode>
     {/* <ShoppingComponent /> */}
     {/* <FormComponent/> */}
@@ -33,7 +39,8 @@ root.render(
       </CookiesProvider> */}
       {/* <ReducerDemo /> */}
         {/* <JqueryAjaxDemo/> */}
-        <SPAComponent/>    
+        <AddBook/>  
+        <BookList/> 
 
     {/* <TwoWayBinding /> */}
   </React.StrictMode>
